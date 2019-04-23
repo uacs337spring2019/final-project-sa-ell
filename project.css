@@ -1,0 +1,73 @@
+#home,#favorites{
+	background-color: #ffeb99;
+	border: 2px gray solid;
+	float:right;
+	font-size: 20pt;
+	padding: 5px;
+	margin: 5px;
+	margin-top: 0;
+	text-align: center;
+	width: 13%;
+	border-radius: 10px;
+	color: #4d3d00;
+	font-weight: bold;
+	font-size: 15pt;
+
+}
+
+h3 {
+	padding-top: 0;
+	margin-top: 0;
+	text-align: center;
+}
+
+body {
+	background-image: url("background-yellow.jpg");
+}
+#home{
+	float:right;
+}
+#ingredients{
+	display: flex;
+}
+#searchFood{
+	border-radius: 5px;
+
+}
+#search{
+	background-color: #fff0b3;
+	border-radius: 5px;
+	font-weight: bold;
+}
+#Top{
+	padding:15px;
+}
+span{
+	font-weight: bold;
+}
+#addFavorites{
+	font-size: 20pt;
+	padding: 20px;
+	text-align: center;
+	width: 10%;
+}
+#welcome{
+	color: #4d3d00;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#descrip {
+	color: #4d3d00;
+font-weight: bold;
+margin-bottom: 1px;
+margin-top: 0;
+}
+
+#addFavorites input {
+	background-color: #fff5cc;
+	border-radius: 5px;
+	font-weight: bold;
+	border-radius: 5px;
+
+}
