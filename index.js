@@ -200,7 +200,7 @@
 			body : JSON.stringify(message)
 		};
 
-		let url = "http://hungry-students-csc-337.herokuapp.com:process.env.PORT";
+		let url = "http://hungry-students-csc-337.herokuapp.com:"+process.env.PORT;
 
 		fetch(url, fetchOptions)
 			.then(checkStatus)
@@ -217,7 +217,7 @@
 	function showFavorites() {
 		console.log("entering show favorites");
 		clear();
-		let url = "http://hungry-students-csc-337.herokuapp.com:process.env.PORT";
+		let url = "http://hungry-students-csc-337.herokuapp.com:"+process.env.PORT;
 
 		fetch(url, {method: "GET"})
 			.then(checkStatus)
