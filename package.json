@@ -2,10 +2,10 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "project_service.js",
+  "main": "project_server.js",
  
   "scripts": {
-    "start":"node project_service.js",
+    "start":"node project_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
