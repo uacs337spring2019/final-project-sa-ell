@@ -54,7 +54,7 @@ app.get('/', function (req, res) {
 	let messages = [];
 	let read = fs.readFileSync("favorites.txt",'utf8');
 	let breakMess = read.split("\n");
-
+	console.log(breakMess[0]);
 	for(let i = 0; i < breakMess.length; i++) {
 		let message = {};
 		let list = breakMess[i].split(":::");
