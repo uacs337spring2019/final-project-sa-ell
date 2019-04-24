@@ -1,0 +1,33 @@
+#home,#favorites{
+	background-color: red;
+	border: 2px black solid;
+	float:right;
+	font-size: 20pt;
+	padding: 20px;
+	margin: 5px;
+	text-align: center;
+	width: 13%;
+}
+#home{
+	float:right;
+}
+#ingredients{
+	display: flex;
+}
+#search{
+}
+#Top{
+	padding:15px;
+}
+span{
+	font-weight: bold;
+}
+#addFavorites{
+	font-size: 20pt;
+	padding: 20px;
+	text-align: center;
+	width: 10%;
+}
+#welcome{
+	
+}
