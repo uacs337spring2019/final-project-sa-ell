@@ -49,6 +49,7 @@ app.post('/', jsonParser, function (req, res) {
 });
 
 app.get('/', function (req, res) {
+	console.log("hello world");
 	res.header("Access-Control-Allow-Origin", "*");
 	let json = {};
 	let messages = [];
