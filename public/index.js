@@ -217,7 +217,7 @@
 	function showFavorites() {
 		console.log("entering show favorites");
 		clear();
-		let url = "https://hungry-students-csc-337.herokuapp.com";
+		let url = "https://hungry-students-csc-337.herokuapp.com:"+process.env.PORT;
 
 		fetch(url, {method: "GET"})
 			.then(checkStatus)
