@@ -1,26 +1,32 @@
-
-
 <!DOCTYPE html>
+<!--
+Sahachel Flores & Ellen Hales
+CSC 337 - Spring 2019 - April 22nd, 2019
+Final Project
+This is the HTML of our project. It mainly displays the home page of our recipe
+site. It also contains the divs that will be used in the javaScript to add more
+elements to the dom tree (recipes from API).
+-->
 <html>
 	<head>
-		<script type="text/javascript" src="index.js"></script>
-		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="project.js"></script>
+		<link rel="stylesheet" type="text/css" href="project.css">
 		<title>Final Project</title>
 	</head>
 	<body>
 		<h1 id="welcome">Welcome to Recipes for Hungry Students</h1>
 		<div id="Top">
-				<p id="descrip"> Please type in a word to search for a recipe</p>
-				<input type="text" id="searchFood"></input>
-				<input type="submit" id="search"></input>
-				<p id="home">Home</p>
-				<p id="favorites">Favorites</p>
+			<p id="descrip"> Please type in a word to search for a recipe</p>
+			<input type="text" id="searchFood">
+			<input type="submit" id="search">
+			<p id="home">Home</p>
+			<p id="favorites">Favorites</p>
 		</div>
 		<div id="displayFavorites"></div>
 		<div id="addFavorites"></div>
 		<div id="result"></div>
 		<h1 id="name"></h1>
-		<p><img src="" id="image"></img></p>
+		<p><img src="background-yellow.jpg" id="image" alt="recipe"></p>
 		<div id="ingredients"></div>
 		<div id="instructions"></div>
 		<div id="extra"></div>
