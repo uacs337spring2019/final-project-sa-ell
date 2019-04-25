@@ -249,7 +249,7 @@ that we later fetch.
 			body : JSON.stringify(message)
 		};
 
-		let url = "http://localhost:3000";
+		let url = "https://hungry-students-csc-337.herokuapp.com";
 
 		fetch(url, fetchOptions)
 			.then(checkStatus)
@@ -274,7 +274,7 @@ that we later fetch.
 		document.getElementById("searchFood").value = "";
 		clear();
 
-		let url = "http://localhost:3000";
+		let url = "https://hungry-students-csc-337.herokuapp.com";
 		fetch(url, {method: "GET"})
 			.then(checkStatus)
 			.then(function(responseText) {
